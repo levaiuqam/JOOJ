@@ -1,23 +1,34 @@
-pimport java.util.Scanner;
+import java.util.Scanner;
 
-public class JogoVetores {
+public class mouse {
 
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner (System.in);
 		String[] vetor = new String[100];// Se tiver mais que 100, aumenta esse n�mero.
 		// N�o mexe em nada aqui em cima /\
 		// VOC� MEXE A PARTIR DAQUI:
-		vetor[0] = "Você acorda no sofá, em uma casa que não conhece,não se lembra nem ao menos o seu nome. A única coisa familiar é a voz de sua mãe que ecoa pelo local. Mãe: Eu te disse que a corda era a melhor opção.O ambiente é pesado e sufocante. Sua cabeça está doendo, um de seus braços ardem então você percebe que seu punho está mutilado. Você precisa sair daqui. Você se levanta e observa o ambiente, e percebe que em cima da mesa da sala,tem uma garafa e uma lista. O que você faz? ### 1 ### 1-Pegar a garrafa; ### 2 ### 2-Pegar a lista.";
-		vetor[1] = "É uma garrafa de veneno vazia. ### 2 ### 1- Pegar a lista.";
-		vetor[2] = "É uma lista de mercado conteúdo irrevelente, porém, o nome do veneno que está na mesa está escrito no papel. Obsevando ainda você encontra uma chave.### 3 ### 1-Pegar a chave e tentar sair pela porta da frente. ### 4 ### 2-Seguir em frente. ";
-		vetor[3] = "PERDEU-Voc� Você tenta encaixar a chave na porta, porém não consegue então se irrita e começa a bater na porta.Não deveria ter feito isso! Você só consegue sentir a faca entrando na altura do seus rins, e lentamente tudo fica escuro.";
-		vetor[4] = "Você explora mais um pouco o cômodo, e acaba notando a presenta de um criado-mudo. ### 6 ### 1-Abrir as gavetas. ### 5 ### 2-Seguir em frente. " ;
-		vetor[5] = "Você segue em frente, começa a explorar e em seguida encontra uma cozinha. Explora o cômodo e nota a presença de uma porta então decide abri-lá.É um porão. Está tudo escuro. Então... você teria que ter aberto aquele criado-mudo...tinha uma arma lá. ### 7 ### 1-Descer e explorar. ### 7 ### 2-Descer sem vontade, porque sabe que vai morrer. ";
-		vetor[6] = "Você abre a primeira gaveta e nada. Você abre a segunda, papéis e apéis, e algo brilhante embaixo deles. Você estende as mão e pega o objeto. É uma arma. ### 10 ### Levar a arma e explorar. ### 5 ### Deixar a arma. ";
-		vetor[7] = "PERDEU-Voc� Antes de descer você encontrar uma dijuntor. ### 8 ### 1-Acender a luz. ### 9 ### 2-Seguir em frente. Tanto faz.";
-		vetor[8] = "Não se iluda , não tem luz. <3 ### 9 ### 1- Morrer ### 9 ### 2- Morrer também, porque você escolheu errado.";
-		vetor[9] = "PERDEU-VOC� Com cuidado você começa a descer as escadas. Então você chega até o final da escada;O odor é púdrido, seus olhos após alguns segundos acostumam com a escuridão, então você observa o ambiente, são celaS? Sim. Em ambos os lados existe celas. Algo se movimenta na cela mais próxima a você. É uma pessoa, a cena é grotesca, a pessoa apresenta sinais de tortura. Você se aproxima. Mulher: Me tira daqui. Você: Como? Não tenho as chaves. Mulher: Ali! Você pega as chaves e abre a sela, a mulher não consegue ficar em pé então você a apoia. Você: Quem fez isso com você? A pergunta é seguida de uma dor aguda na altura do umbigo. Mulher: ISSO É PELO O QUE VOCÊ FEZ COM TODOS NÓS!!"       ";
-		vetor[10] =  
+                /*the vector 1 have: 4,5,6,7
+                the vector 2 have: 8,9,10,11
+                the vector 3 have: 12,13,14,15,16,17
+                */
+            vetor[0] = "Você acorda no sofá, em uma casa que não conhece,não se lembra nem ao menos o seu nome.\n A única coisa familiar é a voz de sua mãe que ecoa pelo local.\n(mãe:)Eu te disse que a corda era a melhor opção!\nO ambiente é pesado e sufocante. Sua cabeça está doendo, um de seus braços ardem então você percebe que\nseu punho está mutilado. Você precisa sair daqui.\nVocê se levanta e observa o ambiente, e percebe que em cima de uma mesa da sala,\ntem uma garafa uma lista.\nO que você faz?###1###pegar a garrafa;###2###pegar a lista;###3###conferir a porta de saída.";
+            vetor[1] = "É uma garrafa de veneno vazia. Seria melhor olhar a lista; ###4### pegar a lista, ###7### soltar a garrafa";
+            vetor[2] = "É uma lista de mercado, com alguns venenos listados. ###8### pegar a garrafa, ###9### soltar a lista";
+            vetor[3] = "a porta está trancada. ###12### voltar para a mesa ";
+            vetor[4] = "É uma lista de mercado, conteúdo irrelevante, exeto pelo veneno listado\nque consta com o da garrafa em cima da mesa\n No vértice da lista, tem algumas instruções.\n seguindo as mesmas, você se depara com uma chave de baixo de algumas revistas velhas em cima da mesa\nO que você escolhe? ###5### pegar a chave, ###6### nao pegar a chave ";
+            vetor[5] = "VENCEU-você, pega a chave e em seguida corre para a porta. felizmente ela abre perfeitamente.\n ao sair pela porta você estranhamente desmaia.Você acorda no sofá, em uma casa que não conhece. não lembra nem ao menos o seu nome...SAIA, SE VOCÊ ACREDITA QUE PODE SAIR DAQUI.";
+            vetor[6] = "PERDEU-bem, não tem muito o que se fazer...";
+            vetor[7] = "PERDEU-você desastradamente deixa a garrafa cair ao chão,\no barulho, chama muita atenção. Algum ser que parece ser,\numa mulher?. Vem em sua direção rapidamente girtando por um nome estranho e desconhecido por você.\n Quando está bem perto de você, puxa uma faca da calça; ela não parece ter boas intenções...";
+            vetor[8] = "PERDEU-Sua saúde mental não é das melhores, você quebra a garrafa na quina da mesa e em seguida,\natola a garrafa quebrada em seu pescoço, em meio a sangue e muita dor você cai no chão.\nAcho que ele estava ouvindo aquela maldita voz familiar outra vez...";
+            vetor[9] = "você solta a lista, ela cai no chão. Algo brilhante te chama a atenção,\nvocê se abaixa para ver o que seria aquela coisa brilhante\nde baixo da mesa... Na verdade não tinha nada, este lugar deve estar mexendo com você.\nAo fazer o mínimo de força para levantar, o chão que já estava rangendo\n quebrou, e sua perna entra na madeira. Como uma alfinetada, só que bem mais forte,\nvocê vê que sua perna foi perfurada por um grande pedaço de madeira.\n Está sangrando muito... Oque você faz? ###10### levantar-se do chao, ###11### deitar e chorar";
+            vetor[10] = "PERDEU-Ao levantar-se você começa a urrar de dor, o pedaço de madeira que se situa entre o chão e um pedaço da sua perna,\nvocê sente rasgando e dilacerando o seu músculo. Seus gritos chamaram a atenção de três pessoas estranhas,\ncochichando eles decidem algo...um deles puxa uma faca da calça.";
+            vetor[11] = "PERDEU-desta maneira voce certamente morrera,  nao tenho muito o que fazer";
+            vetor[12] = "é a mesma maldita garrafa, vazia e sem graça.\n###13###escolha pegar a lista.";
+            vetor[13] = "é uma outra lista de mercado, que está no chão.\nEsta lista também tem conteúdo irrelevante, no verso desta lista tem algumas instruções,\nseguindo-as você termina se deparando com uma escrivaninha, que tem uma gaveta.\n###14### abrir a gaveta?\n###15###não abrir a gaveta?";
+            vetor[14] = "você decide abrir a gaveta e dentro da mesma tem uma chave e uma...pistola?!;\nVocê nem fica com esperaça pois a chave é muito diferente da fechadura da porta.\nA pistola ainda está aí, uma dor intensa no seu fígado te faz cambalear para trás,\ncom isso pisando no controle remoto da televisão, assim ligando-a.\nVocê viu o noticiário e percebeu que estavam à procura de um assasino que sequestrava e matava pessoas em sua casa.\nAo seu lado tinha um espelho e o pior acontece, você é o SERIAL KILLER que está sendo procurado á qualquer custo,\n você entra em desespero e pode fazer uma decisão:\n###16### pegar a pistola.\n###17### sentar-se no chão e esperar.";
+            vetor[15] = "PERDEU-voce e muito engraçado hein?";
+            vetor[16] = "PERDEU-você rapidamente, e com o incentivo daquela maldita voz na sua cabeça,\nvocê bota a pistola apontada para o céu de sua boca, e por fim...";
+            vetor[17] = "PERDEU-policiais arrombam a porta e, você tenta atirar contra eles. Mas você é fraco e eles te mataram.\n Você pelo menos teve a intenção, isso é o importante...";
 		// S� MEXE AQUI EM CIMA /\
 		// DAQUI PRA BAIXO VOC� N�O MEXE!
 		
