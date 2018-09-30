@@ -15,7 +15,7 @@ public class JogoVetores {
 		vetor[5] = "Você segue em frente, começa a explorar e em seguida encontra uma cozinha. Explora o cômodo e nota a presença de uma porta então decide abri-lá.É um porão. Está tudo escuro. Então... você teria que ter aberto aquele criado-mudo...tinha uma arma lá. ### 7 ### 1-Descer e explorar. ### 7 ### 2-Descer sem vontade, porque sabe que vai morrer. ";
 		vetor[6] = "Você abre a primeira gaveta e nada. Você abre a segunda, papéis e apéis, e algo brilhante embaixo deles. Você estende as mão e pega o objeto. É uma arma. ### 10 ### Levar a arma e explorar. ### 5 ### Deixar a arma. ";
 		vetor[7] = "PERDEU-Voc� Antes de descer você encontrar uma dijuntor. ### 8 ### 1-Acender a luz. ### 9 ### 2-Seguir em frente. Tanto faz.";
-		vetor[8] = "### 9 ### Não se iluda , não tem luz. <3";
+		vetor[8] = "Não se iluda , não tem luz. <3 ### 9 ### 1- Morrer ### 9 ### 2- Morrer também, porque você escolheu errado.";
 		vetor[9] = "PERDEU-VOC� Com cuidado você começa a descer as escadas. Então você chega até o final da escada;O odor é púdrido, seus olhos após alguns segundos acostumam com a escuridão, então você observa o ambiente, são celaS? Sim. Em ambos os lados existe celas. Algo se movimenta na cela mais próxima a você. É uma pessoa, a cena é grotesca, a pessoa apresenta sinais de tortura. Você se aproxima. Mulher: Me tira daqui. Você: Como? Não tenho as chaves. Mulher: Ali! Você pega as chaves e abre a sela, a mulher não consegue ficar em pé então você a apoia. Você: Quem fez isso com você? A pergunta é seguida de uma dor aguda na altura do umbigo. Mulher: ISSO É PELO O QUE VOCÊ FEZ COM TODOS NÓS!!"       ";
 		vetor[10] =  
 		// S� MEXE AQUI EM CIMA /\
